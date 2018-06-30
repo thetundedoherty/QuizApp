@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context="com.example.user.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:shadowColor="@color/TextColor"
+            android:text="@string/welcome_note"
+            android:textColor="#213b35"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/You_think_you_know_the_continent_well_Provide_your_name_to_continue"
+            android:textColor="@color/secondTextColor"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/name"
+            android:inputType="textCapWords"
+            android:textColor="@color/TextColor"
+            android:textColorHint="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/question_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_1"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_1_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/question_one_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/marcus_garvey_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/marcus_garvey"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/nnamdi_azikwe_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/nnamdi_azikwe"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/derek_walcott_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/derek_walcott"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/malcolm_x_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/malcolm_x"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/viewColor" />
+
+        <TextView
+            android:id="@+id/question_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_2"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_2_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal">
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/question_two_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/sixth_july_1967_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/sixth_july_1967"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/fifteen_january_1966_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/fifteenth_january_1966"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/sixteen_June_1968_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/sixteenth_june_1968"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/sixth_April_1966_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/sixth_april_1966"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/viewColor" />
+
+        <TextView
+            android:id="@+id/question_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_3"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_3_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+
+        <RadioGroup
+            android:id="@+id/question_three_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/hundred_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/hundred"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/one_seventy_five_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/one_seventy_five"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/one_hundred_and_nine_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/one_hundred_and_nine"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/one_hundred_and_eight_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/one_hundred_and_eight"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/viewColor" />
+
+
+        <TextView
+            android:id="@+id/question_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_4"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_4_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+
+        <RadioGroup
+            android:id="@+id/question_four_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/tenth_nov_1991_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/tenth_november_1991"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/eleventh_feb_1990_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/eleventh_february_1990"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/twelfth_feb_1991_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/twelfth_february_1991"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/ninth_march_1989_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/ninth_march_1989"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/viewColor" />
+
+
+        <TextView
+            android:id="@+id/question_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_5"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_5_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:id="@+id/question_five_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/ghana_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/ghana"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/zimbabwe_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/zimbabwe"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+
+            <RadioButton
+                android:id="@+id/nigeria_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/nigeria"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/senegal_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/senegal"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/viewColor" />
+
+
+        <TextView
+            android:id="@+id/question_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_6"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+             android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_6_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:id="@+id/question_six_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/year_1962_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/nineteen_sixty_two"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/year_1952_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/nineteen_fifty_two"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+
+            <RadioButton
+                android:id="@+id/year_1980_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/nineteen_eighty"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/year_1960_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/nineteen_sixty"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/viewColor" />
+
+
+        <TextView
+            android:id="@+id/question_seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_7"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_7_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:id="@+id/question_seven_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/uganda_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/uganda"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/angola_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/angola"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+
+            <RadioButton
+                android:id="@+id/ethiopia_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/ethiopia"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/congo_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/congo"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/viewColor" />
+
+
+        <TextView
+            android:id="@+id/quetion_eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_8"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_8_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:id="@+id/question_eight_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/walter_sisulu_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/walter_sisulu"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle" />
+
+            <RadioButton
+                android:id="@+id/govan_mbeki_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/govan_mbeki"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+
+            <RadioButton
+                android:id="@+id/walter_rodney_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/walter_rodney"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/oliver_tambo_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/oliver_tambo"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/viewColor" />
+
+
+        <TextView
+            android:id="@+id/question_nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_9"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_9_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:id="@+id/question_nine_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/sudan_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/sudan"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/egypt_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/egypt"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/djibouti_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/djibouti"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/gambia_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/gambia"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/viewColor" />
+
+
+        <TextView
+            android:id="@+id/question_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_10"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/question_10_content"
+            android:textColor="@color/TextColor"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:id="@+id/question_ten_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/fifty_four_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/fifty_four"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/_seventy_two_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/seventy_two"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+
+            <RadioButton
+                android:id="@+id/sixty_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/sixty"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/seventy_four_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:paddingEnd="24dp"
+                android:paddingLeft="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/seventy_four"
+                android:textColor="@color/TextColor"
+                android:textSize="14sp"
+                android:theme="@style/RadioButtonStyle"/>
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/clear_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="@string/clear"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="@string/submit"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

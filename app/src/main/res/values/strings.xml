@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="welcome_note">You are welcome to mama Africa quiz</string>
+
+    <string name="You_think_you_know_the_continent_well_Provide_your_name_to_continue">You think you know the continent well? Provide your name to continue</string>
+
+    <string name="name">Name</string>
+
+    <string name="question_1">Question 1</string>
+
+    <string name="question_1_content">The following are regarded as a Pan Africanist except</string>
+
+    <string name="marcus_garvey">Marcus Garvey</string>
+
+    <string name="nnamdi_azikwe">Nnamdi Azikwe</string>
+
+    <string name="derek_walcott">Derek Walcott</string>
+
+    <string name="malcolm_x">Malcolm X</string>
+
+    <string name="question_2">Question 2</string>
+
+    <string name="question_2_content">The Nigerian civil war broke out on this day</string>
+
+    <string name="sixth_july_1967">6th July 1967</string>
+
+    <string name="fifteenth_january_1966">15th July 1966</string>
+
+    <string name="sixteenth_june_1968">16th June 1968</string>
+
+    <string name="sixth_april_1966">6th April 1966</string>
+
+    <string name="question_3">Question 3</string>
+
+    <string name="question_3_content">How many senators constitute the upper arm of the Nigeria national assembly?</string>
+
+    <string name="hundred">100</string>
+
+    <string name="one_seventy_five">175</string>
+
+    <string name="one_hundred_and_nine">109</string>
+
+    <string name="one_hundred_and_eight">108</string>
+
+    <string name="question_4">Question 4</string>
+
+    <string name="question_4_content">Nelson Mandela was officially released on this day</string>
+
+    <string name="tenth_november_1991">10th November 1991</string>
+
+    <string name="eleventh_february_1990">11th February 1990</string>
+
+    <string name="twelfth_february_1991">12th February 1991</string>
+
+    <string name="ninth_march_1989">9th March 1989</string>
+
+    <string name="question_5">Question 5</string>
+
+    <string name="question_5_content">One of the following country is a non-member of ECOWAS</string>
+
+    <string name="ghana">Ghana</string>
+
+    <string name="zimbabwe">Zimbabwe</string>
+
+    <string name="nigeria">Nigeria</string>
+
+    <string name="senegal">Senegal</string>
+
+    <string name="question_6">Question 6</string>
+
+    <string name="question_6_content">The Algerian revolution between imperialist france ended in the year</string>
+
+    <string name="nineteen_sixty_two">1962</string>
+
+    <string name="nineteen_fifty_two">1952</string>
+
+    <string name="nineteen_eighty">1980</string>
+
+    <string name="nineteen_sixty">1960</string>
+
+    <string name="question_7">Question 7</string>
+
+    <string name="question_7_content">Which of the following African country is considered not colonized?</string>
+
+    <string name="uganda">Uganda</string>
+
+    <string name="congo">Angola</string>
+
+    <string name="angola">Angola</string>
+
+    <string name="ethiopia">Ethiopia</string>
+
+    <string name="question_8">Question 8</string>
+
+    <string name="question_8_content">All but one are considered South Africa nationalist</string>
+
+    <string name="walter_sisulu">Walter Sisulu</string>
+
+    <string name="walter_rodney">Walter Rodney</string>
+
+    <string name="govan_mbeki">Govan Mbeki</string>
+
+    <string name="oliver_tambo">Oliver Tambo</string>
+
+    <string name="question_9">Question 9</string>
+
+    <string name="question_9_content">Which country borders Eritrea to the west?</string>
+
+    <string name="sudan">Sudan</string>
+
+    <string name="egypt">Egypt</string>
+
+    <string name="djibouti">Djibouti</string>
+
+    <string name="gambia">Gambia</string>
+
+    <string name="question_10">Question 10</string>
+
+    <string name="question_10_content">"How many countries are there in Africa?</string>
+
+    <string name="fifty_four">54</string>
+
+    <string name="seventy_two">72</string>
+
+    <string name="seventy_four">74</string>
+
+    <string name="sixty">60</string>
+
+    <string name="clear">CLEAR</string>
+
+    <string name="submit">SUBMIT</string>
+
+</resources>

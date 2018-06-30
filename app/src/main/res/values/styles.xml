@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+<<<<<<< HEAD
+        <item name="colorPrimary">#0288d1</item>
+=======
+        <item name="colorPrimary">#5E2612</item>
+>>>>>>> 010c2759b77eedf8f3c38e2eeda83d847d51c4c1
+        <item name="colorPrimaryDark">#0288d1</item>
+        <item name="colorAccent">#8B795E</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#fd8c66</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Theme.AppCompat.Light">
+<<<<<<< HEAD
+        <item name="colorAccent">#000000</item>
+=======
+        <item name="colorAccent">#ffffff</item>
+>>>>>>> 010c2759b77eedf8f3c38e2eeda83d847d51c4c1
+     <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+</resources>
+
+
+
+
